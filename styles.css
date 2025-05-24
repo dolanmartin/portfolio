@@ -1,0 +1,33 @@
+body {
+	font-family: "courier new", monospace;
+	background-color: #f9f9f9;
+	
+}
+
+p{font-size:.9em;}
+
+.tab { margin-left: 40px; }
+
+
+/* For larger screens (laptops, desktops) */
+@media only screen and (min-width: 850px) {
+
+	Body {
+		margin-top: 40px;
+		margin-left: 15%;
+		margin-right: 45%;
+		margin-bottom: 40px;
+	}
+       
+}
+
+@media only screen and (max-width: 849px) {
+   
+	Body {
+		margin-left: 8%;
+		margin-right: 8%;
+		margin-bottom: 40px;
+		margin-top: 40px;
+	}
+
+}
